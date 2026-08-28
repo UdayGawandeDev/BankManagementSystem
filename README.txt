@@ -1,55 +1,44 @@
-# Bank Management System
+# 🏦 Bank Management System
 
-A console-based Bank Management System developed using Java and Object-Oriented Programming principles. The application provides account management, banking operations, transaction tracking, file-based data persistence, input validation, and custom exception handling.
+A console-based **Bank Management System** developed using **Java and Object-Oriented Programming (OOP)** principles. The application provides essential banking operations with input validation, custom exception handling, and file-based data persistence.
 
-## Features
+## 🚀 Features
 
-* Create Savings and Current accounts
-* Secure account login
-* Deposit money
-* Withdraw money
-* Transfer money between accounts
-* Check account balance
-* View transaction history
-* Change account password
-* Input validation
-* Custom exception handling
-* Persistent account data
-* Persistent transaction history
+* Create Savings and Current Accounts
+* Secure Account Login
+* Deposit & Withdraw Money
+* Transfer Money
+* Check Account Balance
+* View Transaction History
+* Change Password
+* Input Validation
+* Custom Exception Handling
+* Persistent Account & Transaction Data
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-* Java
-* Object-Oriented Programming (OOP)
-* Collections Framework
-* Exception Handling
-* File Handling
-* Java I/O
-* Git & GitHub
+* **Java**
+* **OOP**
+* **Collections Framework**
+* **Exception Handling**
+* **Java I/O & File Handling**
+* **Git & GitHub**
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 BankManagementSystem/
-│
-├── src/
-│   └── bank/
-│       ├── Main.java
-│       ├── Bank.java
-│       ├── Account.java
-│       ├── SavingsAccount.java
-│       ├── CurrentAccount.java
-│       ├── Customer.java
-│       ├── Transaction.java
-│       ├── TransactionType.java
-│       ├── BankingOperations.java
-│       ├── FileManager.java
-│       ├── Utils.java
-│       │
-│       └── exception/
-│           ├── InvalidAmountException.java
-│           ├── InvalidAccountException.java
-│           └── InsufficientBalanceException.java
+├── src/bank/
+│   ├── Main.java
+│   ├── Bank.java
+│   ├── Account.java
+│   ├── SavingsAccount.java
+│   ├── CurrentAccount.java
+│   ├── Customer.java
+│   ├── Transaction.java
+│   ├── BankingOperations.java
+│   ├── FileManager.java
+│   └── exception/
 │
 ├── data/
 │   ├── accounts.txt
@@ -59,72 +48,24 @@ BankManagementSystem/
 └── README.md
 ```
 
-## OOP Concepts Implemented
-
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-* Interfaces
-* Constructors
-* Method Overriding
-
-## Exception Handling
-
-The application uses custom exceptions for handling banking errors:
-
-* `InvalidAmountException`
-* `InvalidAccountException`
-* `InsufficientBalanceException`
-
-## Data Persistence
-
-Account and transaction information is stored in text files so that data can be retained after restarting the application.
-
-## How to Run
-
-### 1. Clone the repository
+## ▶️ How to Run
 
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-### 2. Open the project
-
-Open the project in IntelliJ IDEA or VS Code.
-
-### 3. Compile and run
-
-Run:
+Open the project in **IntelliJ IDEA** or **VS Code**, then run:
 
 ```text
 src/bank/Main.java
 ```
 
-### 4. Use the application
+## 👨‍💻 Author
 
-From the main menu:
+**Uday Gawande**
+Java Developer | Java Full Stack Developer
 
-```text
-1. Create Account
-2. Login
-3. Exit
-```
+📧 [udaygawande01@gmail.com](mailto:udaygawande01@gmail.com)
+🔗 GitHub: `UdayGawandeDev`
 
-After logging in, users can perform banking operations through the customer menu.
-
-## Future Improvements
-
-* MySQL database integration
-* Spring Boot REST API
-* React-based frontend
-* JWT authentication
-* Admin dashboard
-* Password hashing
-* Unit testing
-* Docker deployment
-
-## Author
-
-Uday Gawande
-udaygawande01@gmail.com
+⭐ If you find this project useful, consider giving it a star.
